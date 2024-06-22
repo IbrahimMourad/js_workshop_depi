@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM workshop</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">Books app</h1>
+          <p>Books for Ninjas</p>
+
+          <form id="search-books">
+            <input
+              type="text"
+              placeholder="Search books..."
+              name="search-books"
+            />
+          </form>
+        </div>
+      </header>
+
+      <div id="book-list">
+        <h2 class="title">Books to read</h2>
+
+        <ul>
+          <li>
+            <span class="name">Name of the wind</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="name">The Wise Man's Fear</span>
+            <span class="delete">Delete</span>
+          </li>
+          <li>
+            <span class="name">Kafka on the Shore</span>
+            <span class="delete">Delete</span>
+          </li>
+        </ul>
+      </div>
+
+      <form id="add-book">
+        <input type="checkbox" name="hide" id="hide" />
+        <label for="hide">Hide all books</label>
+
+        <input type="text" placeholder="Add book..." name="add-input" />
+        <button>Add</button>
+      </form>
+
+      <div id="tabbed-content">
+        <ul class="tabs">
+          <li data-target="#about" class="active">About</li>
+          <li data-target="#contact">Contact</li>
+        </ul>
+
+        <div class="panel active" id="about">About content</div>
+        <div class="panel" id="contact">Contact content</div>
+      </div>
+    </section>
+
+    <script src="es6.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
