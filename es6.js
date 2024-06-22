@@ -28,7 +28,7 @@ const test = array.forEach((el) => {
 const mapFN = array.map((el) => {
   return el;
 });
-// console.log('🚀 ~ mapFN ~ mapFN:', mapFN);
+//  sadasdaconsole.log('🚀 ~ mapFN ~ mapFN:', mapFN);
 
 const filterFn = array.filter((el, idx) => el.name === 'ali');
 console.log('🚀 ~ filterFn:', filterFn);
