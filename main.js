@@ -136,7 +136,7 @@ async function renderData() {
     bookName.classList.add('name');
     deleteBtn.classList.add('delete');
 
-    // append to DOM
+    // append to DOM -
     li.appendChild(bookName);
     li.appendChild(deleteBtn);
     list.appendChild(li);
