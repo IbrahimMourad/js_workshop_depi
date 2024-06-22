@@ -32,7 +32,7 @@ const mapFN = array.map((el) => {
 
 const filterFn = array.filter((el, idx) => el.name === 'ali');
 console.log('🚀 ~ filterFn:', filterFn);
-// console.log('🚀 ~ array:', array);
+// console.log('🚀 ~ array:',ss array);
 
 const findFn = array.find((el) => el.name === 'sasdas');
 console.log('🚀 ~ findFn:', findFn);
