@@ -119,7 +119,7 @@ tabs.addEventListener('click', function (e) {
 
 // async await
 
-async function getData() {
+async function renderData() {
   const res = await fetch('https://jsonplaceholder.typicode.com/users');
   const data = await res.json();
 
@@ -142,4 +142,5 @@ async function getData() {
     list.appendChild(li);
   });
 }
-getData();
+
+renderData();
