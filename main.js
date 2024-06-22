@@ -142,5 +142,5 @@ async function renderData() {
     list.appendChild(li);
   });
 }
-// run function
+// run function 1
 renderData();
